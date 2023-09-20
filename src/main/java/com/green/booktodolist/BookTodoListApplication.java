@@ -19,7 +19,7 @@ public class BookTodoListApplication {
 				registry.addMapping("/**")
 						.allowedHeaders("*") // 어떤 헤더들을 허용할 것인지
 						.allowedMethods("*") // 어떤 메서드를 허용할 것인지 (GET, POST…)
-						.allowedOrigins("https://web-travel-todo-cu6q2blkafu2i7.sel4.cloudtype.app");
+						.allowedOrigins("https://web-bookplanner-2rrqq2blmq2qgkt.sel5.cloudtype.app");
 			}
 		};
 	}
