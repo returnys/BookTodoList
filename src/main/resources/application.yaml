@@ -5,9 +5,9 @@ spring:
       max-request-size: 12MB
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb:${DB_HOST}:${DB_PORT}/team_b
-    username: ${DB_USERNAME}
-    password: ${DB_USERPASSWORD}
+    url: jdbc:mariadb:mariadb:3306/team_b
+    username: ysson
+    password: dydtnQ!2
 
 # mybatis config
 mybatis:
